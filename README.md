@@ -30,17 +30,6 @@ Tools that use openapi:
 - [correlator](https://github.com/seh-msft/correlator)
 - [generator](https://github.com/seh-msft/generator)
 
-
-Most scripts are written to be run in WSL or a similar unix-like environment. 
-
-Many supporting scripts are written in the [rc](https://github.com/rakitzis/rc) shell and expect it to be in their `PATH`. 
-
-Rc can be installed on Debian-like systems with `sudo apt-get install rc`. 
-
-Some scripts leverage and expect [sendhttp](https://github.com/seh-msft/sendhttp) to be in their `PATH` for replaying HTTP requests. 
-
-Note that none of the scripts are mandatory for this tooling to work, they simply demonstrate automation of the openapi tooling in this repository. 
-
 ## What's missing
 
 - Openapi has not been tested against a large number of Swagger JSON files
